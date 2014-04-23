@@ -10,3 +10,5 @@ terminal, cd to the directory with these files in it, and type
 python -m SimpleHTTPServer 8888 &.
 
 Then, open the html file and enjoy.
+
+Copyright: James Thornton - April 22, 2014
