@@ -11,9 +11,19 @@
 	</p>
 	<br>
 	<p>
-		This applet displays a Red-Black Tree and allows insertion and deletion.
+		This applet displays a Red-Black Tree and supports insertion, deletion, and search. In order to run this applet, you will need to add the site to your list of security exceptions in the Java control panel (Mac: System Preferences -> Java, Windows: Start -> Configure Java). That is because I have not paid $200 for a code signing certificate. Luckily, this is a Github page so you can access all of the code and verify for yourself that it's completely harmless.
+		<br>
+		(Alternatively, feel free to just clone the repo and run the code yourself.)
 	</p>
-<div align="center">
+
+<script src="https://www.java.com/js/deployJava.js"></script>
+    <script>
+        var attributes = { code:'Display.class',
+            width:700, height:700} ;
+        deployJava.runApplet(attributes,, '1.6');
+    </script>
+
+<di align="center">
     <applet name="Display"
         code="Display.class"
         width="700" height="700"
