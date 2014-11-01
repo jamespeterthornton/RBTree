@@ -1,6 +1,6 @@
 README:
 
-Welcome, welcome -
+Welcome -
 
 This is a Java applet for displaying an RBTree. You can add, delete, and insert.
 
